@@ -1,6 +1,8 @@
 OpenBlocks
 =========
 
+## This is a rewrite of the 1.12.2 version of OpenBlocks for modern minecraft (Neoforge 1.20.4). Information in this README may not be accurate.
+
 An open source random collection of blocks and miscellaneous cool stuff.
 
 

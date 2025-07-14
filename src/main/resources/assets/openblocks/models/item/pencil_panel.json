@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "openblocks:items/pencil",
-        "layer1": "openblocks:items/overlay_panel"
-    }
-}
