@@ -3,9 +3,9 @@
     "defaults" : {
         "model": "cube_bottom_top",
         "textures": {
-            "particle": "openblocks:blocks/block_breaker_side",
-            "side": "openblocks:blocks/block_breaker_side",
-            "bottom": "openblocks:blocks/block_breaker_back"
+            "particle": "openblocks:block/block_breaker_side",
+            "side": "openblocks:block/block_breaker_side",
+            "bottom": "openblocks:block/block_breaker_back"
         },
         "transform": "forge:default-block"
     },

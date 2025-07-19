@@ -4,9 +4,9 @@
         "inventory" : [{
             "model": "forge:forgebucket",
             "textures": {
-                "base": "forge:items/bucket_base",
-                "fluid": "forge:items/bucket_fluid",
-                "cover": "forge:items/bucket_cover"
+                "base": "forge:item/bucket_base",
+                "fluid": "forge:item/bucket_fluid",
+                "cover": "forge:item/bucket_cover"
             },
             "custom": {
                 "fluid": "liquidxp"
@@ -17,7 +17,7 @@
         "inventory-old" : [{
             "model": "item/generated",
             "textures": {
-                "layer0": "openblocks:items/xp_bucket"
+                "layer0": "openblocks:item/xp_bucket"
             }
         }]
     }

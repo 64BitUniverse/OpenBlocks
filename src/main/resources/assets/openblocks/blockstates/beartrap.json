@@ -9,7 +9,7 @@
             ]
         },
         "textures": {
-            "particle": "openblocks:blocks/beartrap"
+            "particle": "openblocks:block/beartrap"
         },
         "transform": "forge:default-block"
     },

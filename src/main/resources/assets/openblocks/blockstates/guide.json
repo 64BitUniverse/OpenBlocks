@@ -29,15 +29,15 @@
         "inner": [{
             "model": "openblocks:guide_inner",
             "textures": {
-                "texture": "openblocks:blocks/guide_center_normal"
+                "texture": "openblocks:block/guide_center_normal"
             }
         }],
 
         "outer": [{
             "model": "cube_column",
             "textures": {
-                "end": "openblocks:blocks/guide_top_new",
-                "side": "openblocks:blocks/guide_side_new"
+                "end": "openblocks:block/guide_top_new",
+                "side": "openblocks:block/guide_side_new"
             }
         }],
 

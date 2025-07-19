@@ -40,7 +40,7 @@ public class ModItems {
             () -> new Item( new Item.Properties()));
     public static final DeferredItem<Item> SLEEPING_BAG = ITEMS.register("sleeping_bag",
             () -> new Item( new Item.Properties()));
-    public static final DeferredItem<Item> PAINT_BRUSH = ITEMS.register("paint_brush",
+    public static final DeferredItem<Item> PAINTBRUSH = ITEMS.register("paintbrush",
             () -> new Item( new Item.Properties()));
     public static final DeferredItem<Item> STENCIL = ITEMS.register("stencil",
             () -> new Item( new Item.Properties()));

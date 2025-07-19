@@ -4,7 +4,7 @@
         "model": "builtin/generated",
         "transform": "forge:default-item",
         "textures": {
-            "layer0": "openblocks:items/hang_glider"
+            "layer0": "openblocks:item/hang_glider"
         }
     },
     "variants": {

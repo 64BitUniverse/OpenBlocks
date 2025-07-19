@@ -1,5 +1,6 @@
 package openblocks;
 
+import openblocks.block.ModBlocks;
 import openblocks.item.ModItems;
 import org.slf4j.Logger;
 
@@ -39,17 +40,13 @@ public class OpenBlocks {
     public static final String MODID = "openblocks";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "openblocks" namespace
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
-    // Create a Deferred Register to hold Items which will all be registered under the "openblocks" namespace
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
+
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "openblocks" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-    // Creates a new Block with the id "openblocks:example_block", combining the namespace and path
-    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
+
     // Creates a new BlockItem with the id "openblocks:example_block", combining the namespace and path
-    public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
+    //public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
 
     // Creates a creative tab with the id "openblocks:example_tab" for the example item, that is placed after the combat tab
     /*
@@ -70,7 +67,7 @@ public class OpenBlocks {
         modEventBus.addListener(this::commonSetup);
 
         // Register the Deferred Register to the mod event bus so blocks get registered
-        BLOCKS.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ModItems.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
@@ -105,6 +102,35 @@ public class OpenBlocks {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModItems.GLIDER_WING);
+            event.accept(ModItems.HANG_GLIDER);
+            event.accept(ModItems.LUGGAGE);
+            event.accept(ModItems.SONIC_GLASSES);
+            event.accept(ModItems.PENCIL_GLASSES);
+            event.accept(ModItems.CRAYON_GLASSES);
+            event.accept(ModItems.TECHNICOLOR_GLASSES);
+            event.accept(ModItems.SERIOUS_GLASSES);
+            event.accept(ModItems.CRANE_CONTROL);
+            event.accept(ModItems.CRANE_BACKPACK);
+            event.accept(ModItems.SLIMALYZER);
+            event.accept(ModItems.XP_BUCKET);
+            event.accept(ModItems.SLEEPING_BAG);
+            event.accept(ModItems.PAINTBRUSH);
+            event.accept(ModItems.STENCIL);
+            event.accept(ModItems.SQUEEGEE);
+            event.accept(ModItems.HEIGHT_MAP);
+            event.accept(ModItems.EMPTY_MAP);
+            event.accept(ModItems.CARTOGRAPHER);
+            event.accept(ModItems.TASTY_CLAY);
+            event.accept(ModItems.GOLDEN_EYE);
+            event.accept(ModItems.CURSOR);
+            event.accept(ModItems.INFO_BOOK);
+            event.accept(ModItems.DEV_NULL);
+            event.accept(ModItems.SPONGE_ON_A_STICK);
+            event.accept(ModItems.EPIC_ERASER);
+            event.accept(ModItems.WRENCH);
+            event.accept(ModItems.GLYPH);
+
+            event.accept(ModBlocks.LADDER);
         }
     }
 
