@@ -1,0 +1,6 @@
+"_comments" : [
+    "Can I interest you in Karnaugh maps? -B",
+    "n_x is present when block has connected neigbour on side x, n_xy is present when neigbour is on diagonal between x and y",
+    "Whole logic stuff and how I got those equations would be really hard to document here. Sorry.",
+    "Symmetry of equations is broken by special casing for blocks on diagonal (to prevent edge from being drawn twice)"
+],
