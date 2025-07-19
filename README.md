@@ -3,6 +3,21 @@ OpenBlocks
 
 ## This is a rewrite of the 1.12.2 version of OpenBlocks for modern minecraft (Neoforge 1.20.4). Information in this README may not be accurate.
 
+- Argentian Spanish needs translations
+- Spain Spanish needs translations
+- Mexican Spanish needs translations
+- Uruguayan Spanish needs translations
+- Venezuelan Spanish needs translations
+- Estonia Estonian needs translations
+- France French needs translations
+- Italy Italian needs translations
+- South Korea Korean needs translations
+- Netherlands Dutch needs translations
+- Poland Polish needs translations
+- Portuguese (Brazil) localization updated by SAMUELPV
+- Russia Russian needs translations
+- China Chinese (no particular dialect specified) needs translations
+
 An open source random collection of blocks and miscellaneous cool stuff.
 
 
